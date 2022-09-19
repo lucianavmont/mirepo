@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href= ./tresenraya.css rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres En Raya!</title>
+</head>
+<body class="container" >
+    <h1>Tres en Raya</h1>
+    <h1>El ganador es:</h1>
+    <div class="grid">
+        <!-- Fila 0 -->
+        <div >
+            <!-- casilla 0 -->
+            <button id = "0_0" onclick="casillaOnClick(0, 0)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px;"></button>
+        </div>
+        <div class = "fil">
+            <!-- casilla 1 -->
+            <button id = "0_1" onclick="casillaOnClick(0, 1)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+        <div class = "fil">
+            <!-- casilla 2 -->
+            <button id = "0_2" onclick="casillaOnClick(0, 2)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+    </div>
+    <div class="grid">
+        <!-- Fila 1 -->
+        <div>
+            <!-- casilla 0 -->
+            <button id = "1_0" onclick="casillaOnClick(1, 0)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+        <div>
+            <!-- casilla 1 -->
+            <button id = "1_1" onclick="casillaOnClick(1, 1)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+        <div>
+            <!-- casilla 2 -->
+            <button id = "1_2" onclick="casillaOnClick(1, 2)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+    </div>
+    <div class="grid">
+        <!-- Fila 2 -->
+        <div >
+            <!-- casilla 0 -->
+            <button id = "2_0" onclick="casillaOnClick(2, 0)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+        <div>
+            <!-- casilla 1 -->
+            <button id = "2_1" onclick="casillaOnClick(2, 1)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+        <div>
+            <!-- casilla 2 -->
+            <button id = "2_2" onclick="casillaOnClick(2, 2)" type="button" class="btn btn-warning fs-1" style="height: 100px; width: 100px"></button>
+        </div>
+    </div>
+    <script src="./tresenraya.js"></script>
+</body>
+</html>
